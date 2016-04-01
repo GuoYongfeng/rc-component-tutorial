@@ -1,4 +1,4 @@
-# rc-rc-component
+# rc-component-tutorial
 ---
 
 React RcComponent Component
