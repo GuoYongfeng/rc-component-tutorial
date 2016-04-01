@@ -1,0 +1,50 @@
+{
+  "name": "rc-rc-component",
+  "version": "1.0.0",
+  "description": "rc-component ui component for react",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-rc-component",
+    "rc-component"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/react-component/rc-component",
+  "author": "guoyongfeng",
+  
+  "repository": "react-component/rc-component",
+  
+  "bugs": "https://github.com/react-component/rc-component/issues",
+  "files":["lib", "assets/*.css"],
+  "license": "MIT",
+  
+  "main":"./lib/index",
+  "config":{
+    "port": 8000
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "karma": "rc-tools run karma",
+    "saucelabs": "rc-tools run saucelabs",
+    "test": "rc-tools run test",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.x",
+    "pre-commit": "1.x",
+    "rc-tools": "5.x",
+    "react": "0.14.x",
+    "react-addons-test-utils": "0.14.x",
+    "react-dom": "0.14.x"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
